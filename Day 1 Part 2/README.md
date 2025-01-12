@@ -1,4 +1,5 @@
 # Dia 1 Parte 2: Historian Hysteria  
+## Tablas Hash  
 Ejecución: 
 
 >>g++ -o Day1 Day_1.cpp
