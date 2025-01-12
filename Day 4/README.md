@@ -5,7 +5,7 @@ Ejecución:
 >>  g++ -o Day4 Day_4.cpp
 
 >>./Day4
- 
+***
 Hemos seleccionado el problema "Ceres Search" para implementar técnicas de búsqueda eficiente debido a la complejidad del problema. Este ejercicio combina desafíos de manipulación de matrices y búsqueda de patrones en múltiples direcciones, lo que lo hace idóneo para aplicar técnicas algorítmicas como divide y vencerás.
 
 La decisión de implementar divide y vencerás surgió de la oportunidad de optimizar el algoritmo ms allá del enfoque básico de la fuerza bruta. A diferencia de otros ejercicios en los que las técnicas algorítmicas pueden ser mas especificas y acaban resultando menos aptas para implementar esta técnica aquí se requiere recorrer las múltiples dimensiones, su naturaleza visual y lógica lo hacen un candidato excelente para lograr una correcta resolución.
