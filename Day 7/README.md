@@ -1,4 +1,6 @@
-# Dia 7: Árboles 
+# Dia 7: Árboles  
+>> g++ -o Day_7 Day_7.cpp
+>> ./Day_7
 ***  
 Hemos escogido el problema de reparar el puente (Bridge Repair) para implementar esta técnica de programación ya que, vimos una buena oportunidad para implementarla de modo que resulte relativamente útil y resulte lógica su implementación.  
 Esto se debe al hecho de que, al implementarlo mediante un árbol binario, podemos realizar todas las combinaciones necesarias para encontrar el resultado, y buscarlo de forma eficiente. Además, a pesar de haber implementado esto para la parte 1, también se podría hacer la parte 2 haciendo que el árbol binario fuera un árbol general con 3 nodos hijos por cada padre.  
