@@ -4,7 +4,7 @@ Ejecución:
 >> g++ -o Day5 Day_5.cpp
 
 >> ./Day5
-
+***
 El problema Day5(Print Queue) fue seleccionado porque trata sobre un caso de ordenaciones topológicas y validaciones, estos casos al ser un conjunto estructurado y reglado son los candidatos ideales para resolverse por grafos.
 
 El problema se puede dividir en tres etapas principales, la primera consistiría en el procesamiento de la entrada, aquí se separarían las reglas de ordenación y las actualizaciones, acto seguido se convierten los datos de entrada en estructuras manipulables, como listas de pares para las reglas y listas de vectores para las actualizaciones.
