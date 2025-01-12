@@ -1,4 +1,5 @@
 # Dia 4: Ceres Search  
+## Divide y Vencerás  
 Ejecución:
 
 >>  g++ -o Day4 Day_4.cpp
