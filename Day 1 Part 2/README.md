@@ -2,7 +2,7 @@
 ## Tablas Hash  
 Ejecución: 
 
->>g++ -o Day1 Day_1.cpp
+>>g++ -o Day1 Day_1-2.cpp
 
 >>./Day1
 ***
