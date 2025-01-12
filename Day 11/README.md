@@ -1,4 +1,7 @@
 # Dia 11: Programación Dinámica  
+>> g++ -o Day_11 Day_11.cpp
+
+>> ./Day_11 
 ***  
 Hemos escogido el problema de las piedras plutónicas (Plutonian Pebbles) para implementar esta técnica de programación ya que, creemos que es el ejemplo perfecto para demostrar cuándo esta técnica resulta eficiente a la hora de resolver un problema.  
 Esto se debe al hecho de que este problema resuelto por fuerza bruta conllevaría demasiado tiempo y/o recursos, es por ello que hemos elegido este problema entre las diversas opciones.  
