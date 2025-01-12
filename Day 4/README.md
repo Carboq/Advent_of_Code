@@ -12,7 +12,7 @@ En nuestra implementación, utiliza un algoritmo de divide y vencerás para enco
 El proceso se divide en diversas etapas:
 
 1. Definir la dirección de desplazamiento entre las 8 posibles opciones
-2, Leer la matriz en la que estamos iterando
+2. Leer la matriz en la que estamos iterando
 3. Buscar la palabra objetivo Dividir la matriz en cuatro más pequeñas
 
 Inicialmente se consideró implementar una solución de fuerza bruta para resolver el problema, recorriendo toda la matriz y verificando cada dirección para cada posición, no obstante, la complejidad de esta estrategia es mucho mayor que la que obtenemos al usar el método de divide y vencerás
