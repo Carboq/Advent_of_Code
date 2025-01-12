@@ -1,5 +1,6 @@
-Dia 5: (Print Queue)
-
+# Dia 5: Print Queue
+## Grafos  
+Ejecución:  
 >> g++ -o Day5 Day_5.cpp
 
 >> ./Day5
@@ -14,10 +15,10 @@ Al final si la validación es exitosa, se extrae la página central del conjunto
 
 A la hora de construir el grafo se utiliza una lista de adyacencias para representar las dependencias entre las páginas.
 
-A la hora de realizar este ejercicio hemos encontrado algunas dificultades, inicialmente las reglas se procesaban sin verificar la presencia de las páginas en la actualización, lo que generaba errores de acceso fuera de rango.
+Mientras realizábamos este ejercicio hemos encontrado algunas dificultades, inicialmente las reglas se procesaban sin verificar la presencia de las páginas en la actualización, lo que generaba errores de acceso fuera de rango.
 
 En un principio, no se consideró la posibilidad de que existiesen ciclos en las dependencias.
 
-Inicialmente se contempló usar un enfoque basado en recorrido en profundidad para validar las dependencias, no obstante, el manejar la validación con múltiples conjuntos de páginas habría sido más complicado.
+Al empezar se contempló usar un enfoque basado en recorrido en profundidad para validar las dependencias, no obstante, el manejar la validación con múltiples conjuntos de páginas habría sido más complicado.
 
 El problema fue un reto que sirvió de mucha ayuda para aprender más sobre la teoría de grafos y desarrollar habilidades necesarias para podes implementar estas soluciones en futuros problemas. Adaptar los algoritmos al contexto especifico es de suma importancia si lo que se pretende es maximizar la eficiencia.
