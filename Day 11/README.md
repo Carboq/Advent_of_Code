@@ -1,4 +1,5 @@
-# Dia 11: Programación Dinámica  
+# Dia 11: Plutonian Pebbles  
+## Programación Dinámica  
 Ejecución:  
 >> g++ -o Day_11 Day_11.cpp
 
