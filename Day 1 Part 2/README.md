@@ -1,6 +1,9 @@
 Ejecución: 
+
 >>g++ -o Day1 Day_1.cpp
+
 >>./Day1
+
 Hemos escogido este problema de calcular la similitud entre dos listas de IDs de ubicaciones (Day 1: Historian Hysteria-Part 2) para implementar tablas hash debido a la oportunidad que presenta este problema para optimizar el cálculo de frecuencias y búsquedas de elementos. Esta estructura de datos permite una implementación eficiente para listas grandes con datos repetidos.
 Esto se debe a que las tablas hash nos permiten almacenar y acceder rápidamente a las frecuencias de los números de la lista derecha, lo cual es esencial para calcular el puntaje de similitud. Si utilizáramos bucles anidados para resolver el ejercicio, la complejidad cuadrática sería de O(n × m), lo que resultaría inviable para listas extensas. Sin embargo, al emplear tablas hash, reducimos la complejidad a O(n + m), optimizando considerablemente el rendimiento y logrando que el algoritmo sea escalable.
 En cuanto al método empleado, hemos utilizado una tabla hash para registrar la frecuencia de cada número en la lista derecha. Posteriormente, recorrimos la lista izquierda y, para cada número, consultamos su frecuencia en la tabla hash. Luego multiplicamos el número por dicha frecuencia y acumulamos el resultado para obtener el puntaje total de similitud. Este enfoque garantiza que cada operación de búsqueda y actualización sea muy rápida, gracias a la eficiencia intrínseca de las tablas hash.
