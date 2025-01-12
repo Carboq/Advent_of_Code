@@ -1,5 +1,6 @@
 # Dia 7: Árboles  
 >> g++ -o Day_7 Day_7.cpp
+
 >> ./Day_7
 ***  
 Hemos escogido el problema de reparar el puente (Bridge Repair) para implementar esta técnica de programación ya que, vimos una buena oportunidad para implementarla de modo que resulte relativamente útil y resulte lógica su implementación.  
