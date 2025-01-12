@@ -5,9 +5,15 @@ Ejecución:
 >>./Day1
 
 Hemos escogido este problema de calcular la similitud entre dos listas de IDs de ubicaciones (Day 1: Historian Hysteria-Part 2) para implementar tablas hash debido a la oportunidad que presenta este problema para optimizar el cálculo de frecuencias y búsquedas de elementos. Esta estructura de datos permite una implementación eficiente para listas grandes con datos repetidos.
+
 Esto se debe a que las tablas hash nos permiten almacenar y acceder rápidamente a las frecuencias de los números de la lista derecha, lo cual es esencial para calcular el puntaje de similitud. Si utilizáramos bucles anidados para resolver el ejercicio, la complejidad cuadrática sería de O(n × m), lo que resultaría inviable para listas extensas. Sin embargo, al emplear tablas hash, reducimos la complejidad a O(n + m), optimizando considerablemente el rendimiento y logrando que el algoritmo sea escalable.
+
 En cuanto al método empleado, hemos utilizado una tabla hash para registrar la frecuencia de cada número en la lista derecha. Posteriormente, recorrimos la lista izquierda y, para cada número, consultamos su frecuencia en la tabla hash. Luego multiplicamos el número por dicha frecuencia y acumulamos el resultado para obtener el puntaje total de similitud. Este enfoque garantiza que cada operación de búsqueda y actualización sea muy rápida, gracias a la eficiencia intrínseca de las tablas hash.
+
 La principal alternativa considerada fue utilizar bucles anidados para resolver el problema directamente comparando cada elemento de cada lista entre sí. Aunque esta solución es conceptualmente sencilla, implicaba un método ineficiente, con una complejidad significativamente mayor, y se descartó en favor de las tablas hash. Otra alternativa evaluada fue ordenar ambas listas y aplicar un algoritmo de doble puntero, lo cual tendría una complejidad de O(n log n + m log m). Sin embargo, aunque esta opción también mejora respecto a la solución básica, las tablas hash ofrecieron la solución más directa y eficiente.
+
 Entre las dificultades que encontramos, podemos destacar el comprender cómo manejar eficientemente los datos y calcular las frecuencias sin incrementar innecesariamente la complejidad del algoritmo. Además, fue necesario ajustar cuidadosamente la implementación para evitar problemas relacionados con colisiones en las tablas hash y garantizar un uso óptimo de la memoria.
+
 Gracias a resolver este problema, hemos profundizado en la importancia de elegir las estructuras de datos que más se adecuan a los problemas presentes para resolverlos de la forma más eficiente. También aprendimos a analizar distintas alternativas antes de decidir la implementación final, garantizando así la mejor solución posible tanto en términos de tiempo como de recursos utilizados.
+
 Además, trabajar con tablas hash nos permitió comprender su aplicación práctica en situaciones del mundo real, como el manejo de grandes volúmenes de datos y la optimización de búsquedas. Este aprendizaje será valioso para abordar futuros problemas donde la eficiencia y la escalabilidad sean fundamentales.
