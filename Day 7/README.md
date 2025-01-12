@@ -1,4 +1,6 @@
-# Dia 7: Árboles  
+# Dia 7: Bridge Repair  
+## Árboles  
+Ejecución:  
 >> g++ -o Day_7 Day_7.cpp
 
 >> ./Day_7
