@@ -1,4 +1,5 @@
 # Dia 11: Programación Dinámica  
+Ejecución:  
 >> g++ -o Day_11 Day_11.cpp
 
 >> ./Day_11 
